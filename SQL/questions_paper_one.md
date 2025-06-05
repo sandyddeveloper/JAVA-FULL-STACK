@@ -127,4 +127,102 @@ Have grade 'B' and marks between 350 and 400
 
 
 
+---
+
+🧾 Set 4: Advanced Level
+
+🔹 Schema
+
+CREATE TABLE Orders (
+    order_id INT PRIMARY KEY,
+    customer_name VARCHAR(100) NOT NULL,
+    product_name VARCHAR(100) NOT NULL,
+    quantity INT CHECK (quantity > 0),
+    price DECIMAL(10,2) NOT NULL,
+    order_date DATE NOT NULL,
+    delivery_date DATE,
+    payment_status VARCHAR(10) CHECK (payment_status IN ('Paid', 'Pending', 'Failed'))
+);
+
+
+---
+
+🔥 Complex Questions
+
+1. Find the total revenue (quantity × price) grouped by each product_name, only for those orders that were delivered and paid.
+
+> Hint: Use WHERE clause with payment_status and delivery_date IS NOT NULL.
+
+
+
+
+2. Find customers who placed multiple orders for the same product with a total quantity > 100.
+
+> Hint: Use GROUP BY with HAVING clause.
+
+
+
+
+3. Display all orders where the delivery took more than 7 days from the order_date.
+
+> Hint: Use DATEDIFF() or delivery_date - order_date depending on your DBMS.
+
+
+
+
+4. Show the list of customers who have not made any payment or whose payment failed and the order was placed more than 30 days ago.
+
+> Hint: Use logical operators with payment_status and date comparison.
+
+
+
+
+5. Display the customer name, product name, and a discounted price assuming a 10% discount on orders with quantity >= 50.
+
+> Hint: Use CASE in SELECT clause.
+
+
+
+
+6. Find the number of orders per month where the order amount is above the average order amount of all orders.
+
+> Hint: Use AVG() in a subquery and MONTH(order_date).
+
+
+
+
+7. Write a query to find all orders where the product_name contains at least two vowels next to each other.
+
+> Hint: Use LIKE '%aa%' OR LIKE '%ee%' ... or REGEXP if supported.
+
+
+
+
+8. Find customers whose first and last order had more than 60 days gap.
+
+> Hint: Use MIN(order_date) and MAX(order_date) with GROUP BY.
+
+
+
+
+9. Display all customers who placed an order on a weekend and the order was successfully delivered.
+
+> Hint: Use date functions like DAYOFWEEK() or TO_CHAR() to find weekends.
+
+
+
+
+10. Show a list of unique products where the average delivery time is less than 3 days and more than 5 orders have been placed.
+
+
+
+> Hint: Use GROUP BY product_name, HAVING, and average date differences.
+
+
+
+
+---
+
+
+
 
