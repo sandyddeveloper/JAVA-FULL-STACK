@@ -1,0 +1,149 @@
+
+# **BASIC ARRAY QUESTIONS (Level 1 — Beginner)**
+
+### **Creation & Traversal**
+
+1. Print all elements of an array
+2. Find the length of array without using `.length`
+3. Read array from user and print it
+4. Print array in reverse order
+5. Find sum of array elements
+6. Find average of array elements
+7. Find the largest element
+8. Find the smallest element
+9. Count positive, negative, zero elements
+10. Count even & odd numbers in array
+11. Copy one array to another
+12. Merge two arrays
+13. Compare two arrays are same or not
+14. Swap first and last element
+15. Find the second largest element
+16. Find the second smallest element
+17. Find maximum difference in array (max - min)
+18. Print elements at even index
+19. Print elements at odd index
+20. Insert an element at given position
+21. Delete an element at given position
+22. Search an element (Linear Search)
+23. Reverse array without using extra array
+24. Rotate array left by 1
+25. Rotate array right by 1
+
+---
+
+# **MEDIUM LEVEL QUESTIONS (Level 2 — Good for Placements)**
+
+### **Sorting & Searching**
+
+26. Sort an array using bubble sort
+27. Sort using selection sort
+28. Sort using insertion sort
+29. Sort array without using sort method
+30. Binary search implementation
+31. Sort array in descending order
+32. Sort even numbers first then odd numbers
+
+### **Frequency & Counting**
+
+33. Count frequency of each element
+34. Find element occurring maximum times
+35. Find element occurring minimum times
+36. Print duplicates in array
+37. Remove duplicates
+38. Find unique elements only
+39. Find first repeating element
+40. Find first non-repeating element
+41. Count pairs with sum = K
+42. Count pairs with difference = K
+
+### **Special Patterns**
+
+43. Reverse array in groups of K
+44. Insert element in sorted array
+45. Check if array is sorted
+46. Find missing number in array 1 to N
+47. Find all missing numbers
+48. Find extra element between two arrays
+49. Find intersection of two arrays
+50. Find union of two arrays
+51. Move all zeros to end
+52. Move all negatives to one side
+53. Separate even & odd numbers
+54. Find common elements in 3 arrays
+55. Convert array into zig-zag pattern
+
+### **Prefix / Suffix**
+
+56. Find prefix sum array
+57. Find suffix sum array
+58. Running sum of array
+59. Maximum prefix sum
+60. Maximum product subarray
+
+---
+
+# **ADVANCED ARRAY QUESTIONS (Level 3 — Hard / Interview Level)**
+
+### **Subarray Problems**
+
+61. Find maximum subarray sum (Kadane’s algorithm)
+62. Find minimum subarray sum
+63. Print all subarrays
+64. Count number of subarrays with sum = K
+65. Find longest subarray with sum = K
+66. Longest subarray with zero sum
+67. Longest subarray with equal 0 and 1
+68. Maximum product subarray
+69. Find equilibrium index
+70. Find peak element
+71. Trapping rainwater problem
+72. Stock buy & sell (max profit)
+73. Stock buy & sell with multiple transactions
+74. Stock buy & sell with cooldown
+
+### **Two Pointer Problems**
+
+75. Two-sum in sorted array
+76. Three-sum problem
+77. Three-sum closest
+78. Four-sum problem
+79. Container with most water
+80. Minimum difference between two arrays
+
+### **Matrix (2D Array)**
+
+81. Print matrix
+82. Transpose matrix
+83. Add two matrices
+84. Multiply two matrices
+85. Print boundary elements
+86. Print diagonal elements
+87. Rotate matrix by 90 degrees
+88. Rotate matrix by 180 degrees
+89. Spiral order traversal
+90. Reverse each row
+91. Reverse each column
+92. Check matrix is identity matrix
+93. Search in sorted matrix
+94. Saddle point of matrix
+
+### **Other Advanced Logic**
+
+95. Find majority element (Moore’s Voting)
+96. Find two repeating elements
+97. Find the two missing numbers
+98. Find duplicate number using Floyd cycle detection
+99. Min swaps to sort array
+100. Check if array can be sorted by one swap
+101. Check if array is mountain array
+102. Count inversions in array
+103. Product of array except itself
+104. Find Kth smallest element
+105. Find Kth largest element
+106. Sort array of 0s, 1s, 2s (Dutch National Flag Algorithm)
+107. Maximum circular subarray sum
+108. Split array into equal sum parts
+109. Check if array can form arithmetic progression
+110. Check if array can form geometric progression
+
+
